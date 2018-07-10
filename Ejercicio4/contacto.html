@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Contacto </title>
+    <link rel="stylesheet" href="/home/x9025/Documentos/DigitalHouse/FullStack/HTML&CSS/Consignas/Ejercicios/Ejercicio4/css/estilos.css" />
+  </head>
+  <body>
+
+        <h1> Formulario de Consultas </h1>
+        <br /> <br />
+
+      <form>
+
+        <label for="nombre"> Nombre y Apellido: </label>
+        <br/>
+        <input type="text" name="nombre" size="25" placeholder="Ingrese nombre y apellido" id="nombre">
+        <label for="email"> Correo electrónico: </label>
+        <br/>
+        <input type="email" name="email" placeholder="Ingrese email" id="email" required>
+        <br/>
+        <label for="asunto"> Asunto del mensaje: </label>
+        <br/>
+        <select name="asunto" id="asunto">
+          <option value="Consulta1">Consulta 1</option>
+          <option value="Consulta2">Consulta 2</option>
+          <option value="Consulta3">Consulta 3</option>
+        </select>
+        <br/> <br/>
+        Sexo: <br/> <br/>
+        <input type="radio" name="femenino"> Femenino
+        <input type="radio" name="masculino"> Masculino
+        <input type="radio" name="no_responde"> No responde
+        <br/> <br/>
+        Pasatiempos: <br/> <br/>
+        <input type="checkbox" name="pasatiempo1"> Música
+        <input type="checkbox" name="pasatiempo2"> Literatura
+        <input type="checkbox" name="pasatiempo3"> Gimnasio
+        <input type="checkbox" name="pasatiempo4"> Programación
+        <input type="checkbox" name="pasatiempo5"> Bar
+        <br/> <br/>
+        <label for="mensaje"> Comentarios: </label> <br/>
+        <textarea name="mensaje" id="mensaje" placeholder="Ingrese comentarios"></textarea> <br/>
+        <br/>
+        <button type="submit"> Enviar </button> &nbsp;
+        <button type="reset"> Borrar </button>
+
+      </form>
+
+  </body>
+
+</html>

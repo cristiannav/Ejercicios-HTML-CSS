@@ -1,0 +1,36 @@
+body{
+      font-family: sans-serif;
+      background-image:url(../../Ejercicio2/images/gaming.png);
+}
+
+h1{
+      background-color: #3d3d3d;
+      color: #f0fffc;
+      text-align: center;
+      font-style: italic;
+}
+
+h2{
+      text-decoration: underline;
+}
+
+body blockquote p{
+      text-align: justify;
+      font-size: 14px;
+      line-height: 23px
+}
+
+body ul li.destacado p{
+      background-color: #001f15;
+      color: #ffffff;
+      text-align: justify;
+      font-size: 22px;
+      line-height: 30px
+}
+
+
+body ul li.perfil li{
+      text-align: justify;
+      font-size: 14px;
+      line-height: 23px;
+}

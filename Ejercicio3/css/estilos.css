@@ -1,0 +1,103 @@
+body{
+      font-family: sans-serif;
+      background-image:url(../../Ejercicio2/images/gaming.png);
+}
+
+h1{
+      background-color: #3d3d3d;
+      color: #f0fffc;
+      text-align: center;
+      font-style: italic;
+}
+
+h2{
+      text-decoration: underline;
+}
+
+strong{
+      font-style: oblique;
+      color: #531d91
+}
+
+em{
+      font-family: fantasy;
+      color: #979449;
+}
+
+
+blockquote{
+      text-align: justify;
+      font-size: 18px;
+      line-height: 23px;
+      background:
+      #001f15
+}
+
+body ul li.destacado p{
+      background-color: #001f15;
+      color: #ffffff;
+      text-align: justify;
+      font-size: 22px;
+      line-height: 30px
+}
+
+
+body ul li.perfil li{
+      text-align: justify;
+      font-size: 14px;
+      line-height: 23px;
+}
+
+
+/*Formulario de consultas*/
+
+form {
+      width: 25%;
+      border: 5px solid #ccc;
+      margin: 20px;
+      padding: 20px;
+      font-size: 14px;
+}
+
+label {
+      font-size: 14px;
+      display:block;
+      width: 100%;
+}
+
+
+input {
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #CCC;
+}
+
+textarea{
+      resize: vertical;
+      max-height: 300px;
+      min-height: 50px;
+}
+
+input:focus, textarea:focus {
+      border: 1px solid #1668C4;
+}
+
+button:hover {
+      background: #4A88F4;
+      cursor: pointer;
+}
+
+
+/*Hobbies*/
+
+body img:hover {
+      border-radius: 20px;
+}
+
+/* Semantica */
+
+section.article1{
+
+
+}
